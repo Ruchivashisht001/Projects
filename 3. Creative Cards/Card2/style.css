@@ -1,0 +1,48 @@
+body {
+   border-color: rgb(38, 138, 139);
+   background-color: rgb(47, 47, 130);
+}
+
+.content {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   margin: 90px;
+
+}
+
+.box {
+   height: 300px;
+   width: 300px;
+   border: 5px solid black;
+   overflow: hidden;
+   padding: 15px;
+   background-image: url(pexels-primitive-spaces-2147980412-35947584.jpg);
+   background-size: cover;
+   background-position: center;
+   opacity: 0.8;
+   color: #fff;
+}
+
+h1 {
+   display: flex;
+   justify-content: center;
+}
+
+button {
+   display: block;
+   margin: auto;
+}
+
+.imgbox {
+   position: absolute;
+
+}
+
+img {
+   position: absolute;
+   left: 10px;
+   right: 10px;
+   top: 10px;
+   bottom: 10px;
+}
